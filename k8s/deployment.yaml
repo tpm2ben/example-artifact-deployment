@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: <+artifact.image>:<+artifact.tag>
+        image: <+artifact.primary.image>:<+artifact.tag>
         ports:
         - containerPort: 80
