@@ -28,7 +28,7 @@ spec:
         app: nginx
     spec:
       imagePullSecrets:
-      - name: {{.Values.name}}-dockercfg
+      - name: {{.Values.dockercfg}}
       containers:
       - name: nginx
         image: {{.Values.image}}
