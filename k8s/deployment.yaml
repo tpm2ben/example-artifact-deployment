@@ -31,6 +31,6 @@ spec:
       - name: {{.Values.dockercfg}}
       containers:
       - name: nginx
-        image: {{.Values.image}}
+        image: nginx:1.14.2
         ports:
         - containerPort: 80
