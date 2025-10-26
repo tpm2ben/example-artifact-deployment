@@ -1,2 +1,2 @@
 image: <+artifacts.primary.image>
-dockercfg: <+artifacts.primary.imagePullSecret> 
+dockercfg: docker-registry-secret1
